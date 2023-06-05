@@ -43,13 +43,8 @@ function fetchImgs() {
       }
 
       if (data.hits.length === 0) {
-        // if (!loadmoreBtn.classList.contains('is-hidden')) {
-        //   hideLoadMoreBtn();
-        // }
-
         hideLoadMoreBtn();
-
-        Notify.info(
+  Notify.info(
           'Sorry, there are no images matching your search query. Please try again.'
         );
 
